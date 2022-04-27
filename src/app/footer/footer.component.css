@@ -1,0 +1,8 @@
+footer {
+    background-color: rgb(218, 37, 97);
+    border-top: 2px solid steelblue;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+}
