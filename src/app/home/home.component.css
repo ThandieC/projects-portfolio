@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+#home {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#left {
+    padding: 1em;
+}
+
+#name {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#dev {
+    margin: 0 auto;
+    margin-bottom: 2em;
+    width: 50%;
+    color: skyblue;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: steelblue;
+}
+
+.b-nav {
+    display: inline-block;
+    margin: 1em;
+    margin-top: 3em;
+    padding: 10px;
+    background-color: rgba(15, 15, 15, 0.5);
+    box-shadow: 0 2px 5px skyblue;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
+.b-nav:hover {
+    box-shadow: 0 2px 10px rgb(218, 37, 97);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#right {
+    background-image: URL(assets/images/code-black.jpg);
+    background-size: 100%;
+    background-color: darkblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: auto;
+    padding: 1em;
+    margin: 0 auto;
+    margin-top: 2em;
+    border: 2px solid darkblue;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#imgDiv {
+    text-align: center;
+    border-radius: 10px;
+    padding: 1em;
+    width: 80%;
+    border: 1px solid rgb(218, 37, 97);
+    background-color: lightskyblue;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.about h4 {
+    padding-top: 0.5em;
+}
+
+.about p {
+    text-align: justify;
+    padding: 0 1.5em;
+}
