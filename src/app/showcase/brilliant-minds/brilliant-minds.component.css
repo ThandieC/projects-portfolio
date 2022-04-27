@@ -1,0 +1,71 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 1em;
+}
+
+.description {
+    padding: 10px;
+}
+
+.tech-stack {
+    color: skyblue;
+    font-style: italic;
+    text-align: center;
+}
+
+ul {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.link-container {
+    padding: 0.5em;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.app-links {
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: rgba(45, 45, 45, 0.8);
+    border: 3px solid rgb(218, 37, 97);
+    text-align: center;
+}
+
+.placeholder-icon {
+    border: 2px solid whitesmoke;
+    color: rgba(45, 45, 45, 0.8);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.icon,
+.placeholder-icon {
+    cursor: pointer;
+}
+
+.app-links>p {
+    text-align: center;
+    font-size: smaller;
+}
