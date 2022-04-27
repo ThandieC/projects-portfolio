@@ -1,0 +1,26 @@
+.galleryDiv {
+    text-align: center;
+}
+
+h4 {
+    color: steelblue;
+    padding: 10px;
+    margin-top: 2vh;
+    margin-bottom: 0.5em;
+    text-align: center;
+    width: 100%;
+}
+
+.imageDiv {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.imageDiv>img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: whitesmoke;
+    border: 5px ridge gold;
+}
