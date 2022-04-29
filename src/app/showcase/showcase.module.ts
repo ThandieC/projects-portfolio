@@ -7,6 +7,7 @@ import { BrilliantMindsComponent } from './brilliant-minds/brilliant-minds.compo
 import { BrilliantMindsGalleryComponent } from './brilliant-minds/brilliant-minds-gallery/brilliant-minds-gallery.component';
 import { RecipeBookComponent } from './recipe-book/recipe-book.component';
 import { RecipeBookGalleryComponent } from './recipe-book/recipe-book-gallery/recipe-book-gallery.component';
+import { MaterialModule } from '../material-icons.module';
 
 const showcaseRoutes: Routes = [
   {
@@ -38,7 +39,7 @@ const showcaseRoutes: Routes = [
     RecipeBookComponent,
     RecipeBookGalleryComponent,
   ],
-  imports: [RouterModule.forChild(showcaseRoutes)],
+  imports: [MaterialModule, RouterModule.forChild(showcaseRoutes)],
   exports: [RouterModule],
 })
 export class ShowcaseModule {}
